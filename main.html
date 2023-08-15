@@ -8,28 +8,39 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div>
-	<h1>My Playlist</h1>
-	<h2>Now Playing...</h2>
-	<h2>MP3 songs</h2>
-	</div>
 
-	<div>
-	<ul>
-		<li>
-			<a href="#" target="_blank">Anchor</a>
-		</li>
-		
-	</ul>
-	</div>
+    <h1 style="text-align: center;">My Playlist</h1>
+    
+    <h2 style="text-align: center;">Now Playing...</h2>
+    
+    <div class="player_one">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <h2 style="text-align: center;">MP3 songs</h2>
+    
+    <div class="player_two">
+        <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <h2 style="text-align: center;">Songs Playlist</h2>
+    
+    <ul>
+        <li style="list-style-type: none;">
+            <a href="song1.mp3" target="_blank" style="text-decoration-line: none;">Song 1</a>
+        </li>
+        <li style="list-style-type: none;">
+            <a href="song2.mp3" target="_blank" style="text-decoration-line: none;">Song 2</a>
+        </li>
+        <li style="list-style-type: none;">
+            <a href="song3.mp3" target="_blank" style="text-decoration-line: none;">Song 3</a>
+        </li>
+    </ul>
 
-
-	<video controls class="player_one">
-		<source src="#" type="video/mp4">
-	</video>
-	<audio controls class="player_two">
-		<source src="#" type="audio/mp3">
-	</audio>
     <script type="text/javascript" src="./script.js">
 </script>
 
